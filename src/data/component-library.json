@@ -1,0 +1,196 @@
+{
+  "format": "stripboard-studio-component-library",
+  "version": 1,
+  "definitions": [
+    {
+      "id": "generic_module",
+      "name": "Generic Module",
+      "category": "General",
+      "body": {
+        "widthMm": 20,
+        "heightMm": 15
+      },
+      "pins": [
+        {
+          "id": "pin1",
+          "name": "1",
+          "xMm": 5,
+          "yMm": 0,
+          "electricalType": "input"
+        },
+        {
+          "id": "pin2",
+          "name": "2",
+          "xMm": 15,
+          "yMm": 0,
+          "electricalType": "output"
+        }
+      ],
+      "defaultColor": "#888888",
+      "defaultPlacementType": "onBoard"
+    },
+    {
+      "id": "terminal_block_2pin",
+      "name": "2-pin PCB Terminal Block",
+      "category": "Connectors",
+      "body": {
+        "widthMm": 10,
+        "heightMm": 7
+      },
+      "pins": [
+        {
+          "id": "pin1",
+          "name": "1",
+          "xMm": 2.54,
+          "yMm": 0,
+          "electricalType": "input"
+        },
+        {
+          "id": "pin2",
+          "name": "2",
+          "xMm": 7.46,
+          "yMm": 0,
+          "electricalType": "output"
+        }
+      ],
+      "defaultColor": "#8B4513",
+      "defaultPlacementType": "onBoard"
+    },
+    {
+      "id": "fuse_holder_horizontal",
+      "name": "Horizontal Fuse Holder",
+      "category": "Protection",
+      "body": {
+        "widthMm": 17.5,
+        "heightMm": 13
+      },
+      "pins": [
+        {
+          "id": "pin1",
+          "name": "IN",
+          "xMm": 5,
+          "yMm": 0,
+          "electricalType": "input"
+        },
+        {
+          "id": "pin2",
+          "name": "OUT",
+          "xMm": 25,
+          "yMm": 0,
+          "electricalType": "output"
+        }
+      ],
+      "defaultColor": "#FFD700",
+      "defaultPlacementType": "onBoard"
+    },
+    {
+      "id": "tvS_diode_axial",
+      "name": "TVS Diode / Axial Diode",
+      "category": "Semiconductors",
+      "body": {
+        "widthMm": 8,
+        "heightMm": 3
+      },
+      "pins": [
+        {
+          "id": "pin1",
+          "name": "A",
+          "xMm": 2,
+          "yMm": 0,
+          "electricalType": "input"
+        },
+        {
+          "id": "pin2",
+          "name": "K",
+          "xMm": 6.02,
+          "yMm": 0,
+          "electricalType": "output"
+        }
+      ],
+      "defaultColor": "#2F4F4F",
+      "defaultPlacementType": "onBoard"
+    },
+    {
+      "id": "usb_c_module",
+      "name": "USB-C PD Trigger Module",
+      "category": "Connectors",
+      "body": {
+        "widthMm": 31,
+        "heightMm": 15
+      },
+      "pins": [
+        {
+          "id": "vout_plus",
+          "name": "VOUT+",
+          "xMm": 5,
+          "yMm": 0,
+          "electricalType": "power"
+        },
+        {
+          "id": "vout_minus",
+          "name": "VOUT-",
+          "xMm": 10,
+          "yMm": 0,
+          "electricalType": "ground"
+        },
+        {
+          "id": "vin_plus",
+          "name": "VIN+",
+          "xMm": 20,
+          "yMm": 0,
+          "electricalType": "power"
+        },
+        {
+          "id": "vin_minus",
+          "name": "VIN-",
+          "xMm": 25,
+          "yMm": 0,
+          "electricalType": "ground"
+        }
+      ],
+      "defaultColor": "#4682B4",
+      "defaultPlacementType": "onBoard"
+    },
+    {
+      "id": "xl4016_buck",
+      "name": "XL4016 Buck Converter",
+      "category": "Power",
+      "body": {
+        "widthMm": 41,
+        "heightMm": 27
+      },
+      "pins": [
+        {
+          "id": "in_plus",
+          "name": "IN+",
+          "xMm": 5,
+          "yMm": 0,
+          "electricalType": "power"
+        },
+        {
+          "id": "in_minus",
+          "name": "IN-",
+          "xMm": 10,
+          "yMm": 0,
+          "electricalType": "ground"
+        },
+        {
+          "id": "out_plus",
+          "name": "OUT+",
+          "xMm": 30,
+          "yMm": 0,
+          "electricalType": "power"
+        },
+        {
+          "id": "out_minus",
+          "name": "OUT-",
+          "xMm": 35,
+          "yMm": 0,
+          "electricalType": "ground"
+        }
+      ],
+      "defaultColor": "#228B22",
+      "defaultPlacementType": "external"
+    }
+  ]
+}
