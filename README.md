@@ -126,5 +126,6 @@ Recent UI work includes:
 ## Status
 
 This project is still in active MVP stabilization. The emphasis is on correctness, predictable interaction, compact serialization, and reliable board rendering rather than advanced routing or production-scale CAD features.
-<img width="1287" height="833" alt="image" src="https://github.com/user-attachments/assets/474f0516-e3e9-4d99-9302-49bdd458d2b3" />
-<img width="1269" height="813" alt="image" src="https://github.com/user-attachments/assets/84b07ffb-7012-4be6-84e6-eeb3e182e75a" />
+<img width="643" height="416" alt="image" src="https://github.com/user-attachments/assets/474f0516-e3e9-4d99-9302-49bdd458d2b3" />
+<img width="643" height="416" alt="image" src="https://github.com/user-attachments/assets/84b07ffb-7012-4be6-84e6-eeb3e182e75a" />
+<img width="1495" height="771" alt="image" src="https://github.com/user-attachments/assets/5085220e-38f0-475a-a2a7-86100f9fec3d" />
