@@ -32,9 +32,13 @@ The application is focused on stabilizing an MVP workflow for planning stripboar
 - Zustand
 - SVG rendering
 
+## Runtime Requirement
+
+Use Node.js `^20.19.0` or `>=22.12.0`.
+
 ## Run Locally
 
-```powershell
+```sh
 npm install
 npm run dev
 ```
@@ -45,24 +49,24 @@ Dev URL:
 http://127.0.0.1:5173
 ```
 
-The normal dev script will reclaim port `5173` before starting Vite so the URL stays fixed.
+The normal dev script will reclaim the previous StripBoard Studio dev server on port `5173` before starting Vite so the URL stays fixed on Windows and Linux.
 
 ### Raw Vite Startup
 
-```powershell
+```sh
 npm run dev:raw
 ```
 
 ### Production Build
 
-```powershell
+```sh
 npm run build
 ```
 
 ## Scripts
 
 - `npm run dev` - start the local dev server on `127.0.0.1:5173`
-- `npm run dev:raw` - run Vite directly without the PowerShell startup wrapper
+- `npm run dev:raw` - run Vite directly without the Node startup wrapper
 - `npm run build` - type-check and build the production bundle
 
 ## Default Board Preset

@@ -3,8 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
-    "dev": "powershell -ExecutionPolicy Bypass -File ./scripts/dev.ps1",
+    "dev": "node ./scripts/dev.mjs",
     "dev:raw": "vite --host 127.0.0.1 --port 5173 --strictPort",
     "build": "tsc && vite build",
     "preview": "vite preview"
