@@ -315,7 +315,7 @@ export const BoardSvg: React.FC<BoardSvgProps> = ({ width, height, scale }) => {
       ? offsetX + mmToPx(rowHeaderHoles[0].xMm - board.pitchMm / 2, renderScale)
       : offsetX;
   const rowHeaderX = Math.max(12, rowHeaderAnchorX - 12);
-  const showBoardLabels = settings.showLabels && !showBoardPrepView;
+  const showBoardLabels = showBoardPrepView || settings.showLabels;
   const renderAnnotations = useCallback(
     (annotationScale: number, annotationOffsetX: number, annotationOffsetY: number, keyPrefix: string) =>
       project.annotations.map((annotation) => {

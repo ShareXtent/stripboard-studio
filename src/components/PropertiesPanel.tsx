@@ -692,7 +692,7 @@ export const PropertiesPanel: React.FC = () => {
             <div className="flex items-center gap-2">
               <input
                 type="checkbox"
-                checked={project.settings.boardPrepMode ? false : project.settings.showLabels}
+                checked={project.settings.boardPrepMode ? true : project.settings.showLabels}
                 onChange={(e) => updateSettings({ showLabels: e.target.checked })}
                 disabled={project.settings.boardPrepMode}
                 style={{ accentColor: '#4a90d9' }}
